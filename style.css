@@ -4,7 +4,7 @@
     --bgcolor: #e1f4f5;
     --navcolor: #87d2d4;
     --btncolor: #048285;
-    --sectioncolor: #c72222;
+    --sectioncolor: #045658c3;
     --btncard: #3abdbf;
     --descColor: #0d6b85;
     --up: #10772C;
@@ -261,7 +261,7 @@ body {
 }
 
 .cart-item-clear {
-    background-color: var(--sectioncolor);
+    background-color: rgb(106, 4, 4);
     color: var(--bgcolor);
     padding: 0.75rem;
     border-radius: 10px;

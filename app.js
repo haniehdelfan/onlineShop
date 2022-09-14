@@ -142,9 +142,11 @@ class UI {
         //DOWN BUTTON
       } else if (event.target.classList.contains("fa-chevron-down")) {
         const subQuantity = event.target;
-        const substractedItem = cart.find((c) => c.id == subQuantity.dataset.id);
+        const substractedItem = cart.find(
+          (c) => c.id == subQuantity.dataset.id
+        );
         //vaqti be yek resid meqdar manfi nashe va tage pedarbozorg del beshe
-        if(substractedItem.quantity === 1){
+        if (substractedItem.quantity === 1) {
           this.removeItem(substractedItem.id);
           cartContent.removeChild(subQuantity.parentElement.parentElement);
           return;
@@ -243,4 +245,4 @@ backDrop.addEventListener("click", closeModalFunction);
 
 // nav bar
 const navSide = document.querySelector(".fa-solid fa-bars");
-navSide.addEventListener("click",)
+navSide.addEventListener("click");
